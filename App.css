@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper.four {
+  background-color: #ffffffe3;
+  border-radius: 0%;
+  border-bottom: 20px;
+  margin: 9mm;
+  font-size: 30px;
+  font-family: '"Playfair Display", serif';
+}
+.four .type{
+  padding: 0mm;
+  width: 1%;
+  margin: 2mm;
+  height: 2cm;
+}
+.four h3 {
+  width: 10ch; 
+  border-bottom: 2px solid rgb(182, 0, 0);
+  border-right: 2px solid rgb(182, 0, 0);
+  margin: 0rem 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+
+
+
+
+h1 {
+
+  font-size:30px;text-align:center; line-height:1.5em; padding-bottom:45px; 
+  font-family:"Playfair Display", serif; text-transform:uppercase;letter-spacing: 2px; font-size: 100px; color:#6d2b2b;
+
+  
+}
+h1:before {
+  position: absolute;
+  left: 9;
+  bottom: 450px;
+  width: 60%;
+  left:50%; margin-left:-30%;
+  height: 1px;
+  content: "";
+  background-color: #777; z-index: 2;
+}
+h1:after {
+  position:absolute;
+  width:40px; height:40px; left:50%; margin-left:-20px; bottom:430px;
+  content: '\00a7'; font-size:30px; line-height:40px; color:#c50000;
+  font-weight:400; z-index: 5;
+  display:block;
+  background-color:#f8f8f8;
+}
+
+
+.container {
+  text-align: center;
+  background-color: #95d2dade;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: #282c34;
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Wallpaper-For-Laptop-Wallpaper-High-Quality.jpg');
+  background-size: 1500px 2300px;
+  
+}
+
+.user-list {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-family: Courier New, monospace;
+
+  
+  
+}
+
+
+.user {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 70px; /* Adjust the margin values to change the spacing */
+    font-size: 250%;
+
+
+}
+
+.user img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+  border:rgb(red, green, blue);
+  border-bottom: #282c34;
+ 
+  border-top: 13px solid #ffffffa2;
+  border-left: 13px solid #ffffffa2;
+  border-right: 13px solid #ffffffa2;
+  border-bottom: 60px solid #ffffffa2;
+  box-shadow: 0 4px 8px rgb(0, 0, 0)
+  
+
+}
+.user img:hover  {
+  cursor: pointer;
+  transform: scale(1.1) ;
+}
+.wrapper.four:hover{
+  cursor: pointer;
+
+}
+
+
+
+
